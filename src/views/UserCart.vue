@@ -99,7 +99,7 @@
             </tfoot>
           </table>
           <div class="input-group mb-3 input-group-sm">
-            <input type="text" class="form-control" v-model="coupon_code" placeholder="請輸入優惠碼">
+            <input type="text" class="form-control" v-model.trim="coupon_code" placeholder="請輸入優惠碼">
             <div class="input-group-append">
               <button class="btn btn-outline-secondary" type="button" @click="addCouponCode">
                 套用優惠碼
@@ -186,7 +186,7 @@ export default {
       })
     },
     addCouponCode () {
-      const url = `${process.env.VUE_APP_API}api/${process.env.VUE_APP_PATH}/coupon`
+      const url = `${process.env.VUE_APP_API}api/${process.env.VUE_APP_PATH}/coupons`
       const coupon = {
         code: this.coupon_code
       }
