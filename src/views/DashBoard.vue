@@ -1,9 +1,25 @@
 <template>
-    DashBoard
+    <NavBar></NavBar>
+    <div class="container-fluid mt-3 position-relative"></div>
+    <ToastMessages></ToastMessages>
+    <router-view/>
 </template>
 
 <script>
+import emitter from '@/methods/emitter'
+import ToastMessages from '@/components/ToastMessages.vue'
+import NavBar from '../components/NavBar.vue'
+
 export default {
+  components: {
+    NavBar,
+    ToastMessages
+  },
+  provide () {
+    return {
+      emitter
+    }
+  },
   created () {
     const token = document.cookie.replace(/(?:(?:^|.*;\s*)hexToken\s*=\s*([^;]*).*$)|^.*$/, '$1')
     console.log(token)

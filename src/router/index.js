@@ -17,12 +17,18 @@ const routes = [
       import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
-    path: '/LoginPage',
+    path: '/Login',
     component: () => import('../views/LoginPage.vue')
   },
   {
     path: '/DashBoard',
-    component: () => import('../views/DashBoard')
+    component: () => import('../views/DashBoard.vue'),
+    children: [
+      {
+        path: 'Products',
+        component: () => import('../views/ProductsPage.vue')
+      }
+    ]
   }
 ]
 
