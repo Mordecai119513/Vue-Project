@@ -27,6 +27,28 @@ const routes = [
       {
         path: 'Products',
         component: () => import('../views/ProductsPage.vue')
+      },
+      {
+        path: 'orders',
+        component: () => import('../views/OrdersView.vue')
+      },
+      {
+        path: 'coupons',
+        component: () => import('../views/CouponsView.vue')
+      }
+    ]
+  },
+  {
+    path: '/user',
+    component: () => import('../views/UserBoard.vue'),
+    children: [
+      {
+        path: 'cart',
+        component: () => import('../views/UserCart.vue')
+      },
+      {
+        path: 'product/:productId',
+        component: () => import('../views/UserProduct.vue')
       }
     ]
   }
@@ -34,6 +56,7 @@ const routes = [
 
 const router = createRouter({
   history: createWebHashHistory(),
+  linkActiveClass: 'active',
   routes
 })
 
