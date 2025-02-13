@@ -186,7 +186,7 @@ export default {
       })
     },
     addCouponCode () {
-      const url = `${process.env.VUE_APP_API}api/${process.env.VUE_APP_PATH}/coupons`
+      const url = `${process.env.VUE_APP_API}api/${process.env.VUE_APP_PATH}/coupon`
       const coupon = {
         code: this.coupon_code
       }
