@@ -1,14 +1,11 @@
 <template>
     <section
       class="section-bkg pt-8 pb-15"
-      style="
-        background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/peihanwang-hexschool/1682598842821.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=DU8b3nBYU2ER%2BdUWbghrVoA3KGX6KiJFzlKjmgNOTcZxCoxsv2AhJj7sZxIR%2BPIQLfiEq3cUrOIV9Sx0UA2NYMIPOxSla0gpXxR6MT8NRm5M4MazCYhnkplkioNt%2BSSMolimS8wk4SBicKJWyBaqRcrmKLe44PPP4QQQAFw3SLdkuBhOi%2BiKEKA4MnIEnzVxtpwY8bQfjQmCUKlLGS%2B2jhL%2FM2akcsWO0Z%2Bp9ebeA9VPplyNsoqu37H25KL%2FFT%2B9p%2F5jjoifcDzquWx7I6yqzINvnEQqu03UClrv9VHEImNlUPMc6y7%2FwP16d0tAyP6mqoDtMvsFdbPPaRGTeHF09g%3D%3D');
-      "
     >
-      <div class="container">
+      <div class="container ">
         <div data-aos="fade-up">
-          <h2 class="fs-2 fw-bold text-primary text-center mb-6" style="font-family: var(--bs-NotoSerif-TC)">
-            關於芳心。
+          <h2 class="fs-2 fw-bold text-primary text-center mb-6 my-4 py-4" style="font-family: var(--bs-NotoSerif-TC)">
+            關於Toy Haven。
           </h2>
         </div>
         <div class="row flex-lg-row flex-column-reverse align-items-center gx-lg-8 gy-3">
@@ -18,16 +15,18 @@
                 class="text-secondary fs-3 fw-bold mb-3"
                 style="font-family: var(--bs-NotoSerif-TC)"
               >
-                Fangsis
+              Toy Haven
               </h3>
               <p class="text-secondary fs-4 fw-bold mb-4">
-                是阿美族語「馨香之氣」的意思， 那是造物主給予最獨特的記號。
+                重新出發，找回屬於你的魔法。
               </p>
               <p class="text-secondary mb-4">
-                在花蓮，能看到大自然的美，就好像呼吸一樣理所當然。<br />
-                但這份禮物卻一點一滴的從我們眼前流失。<br />
-                我們希望連結花蓮在地的小農，用在地的農作物，<br />
-                重心出發，恢復大地原本的芳香。
+                在這裡，我們相信玩具不只是物品，
+                它們承載著童年的幻想、歡笑與成長的印記。
+                但隨著時間流逝，那些純真的感動也逐漸遠去。
+                我們希望透過 Toy Haven，重新連結這份童真，
+                用經典的設計與創新的玩具，
+                喚醒心中最純粹的快樂。
               </p>
               <RouterLink to="/about" class="btn btn-outline-primary w-100 w-lg-35 py-2" href=""
                 >查看更多</RouterLink
@@ -38,18 +37,13 @@
             <div data-aos="fade-up">
               <img
                 class="img-fluid d-none d-lg-block"
-                src="https://storage.googleapis.com/vue-course-api.appspot.com/peihanwang-hexschool/1682598856516.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=MzKfEB7zm7HkUSyY0Q0AOsjsiWw92Qpg6L%2BWClD8zgkMoxbP7ZgQ6rw4u8zZbHdP9mOWI2nIPqmSg9gWqOe20qRGhXbsO25LiwA%2B89PA5TZKSovFkPrOvLowPgBo7DX%2BeW3A6fhI51CBA5vmCrH9MmIrQQRl44CSCfL077Pxa1s%2BreGDOquSkZdjnkEJ7dlK%2FltuKO7HJ6zoOeCdIY2aCqSfvQPX9NHhfyaPDrqIWMJanIhCAngNwySHQJEXoU5IRhMCmHDSLqDzBaxzaeLOjvUenGjAQsoXbavEFwH3DxfAKiGxHBeXRnpEtdSB2ruC8YGT2W8hgzxnjn4UN2mEwQ%3D%3D"
+                src="/Logo.png"
                 alt="用滴管將黃色精油滴在手上的特寫"
                 width="636"
-                height="368"
+                height="300"
                 style="background-color: var(--bs-secondary)"
               />
-              <div
-                class="aboutImg d-block d-lg-none"
-                style="
-                  background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/peihanwang-hexschool/1682598856516.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=MzKfEB7zm7HkUSyY0Q0AOsjsiWw92Qpg6L%2BWClD8zgkMoxbP7ZgQ6rw4u8zZbHdP9mOWI2nIPqmSg9gWqOe20qRGhXbsO25LiwA%2B89PA5TZKSovFkPrOvLowPgBo7DX%2BeW3A6fhI51CBA5vmCrH9MmIrQQRl44CSCfL077Pxa1s%2BreGDOquSkZdjnkEJ7dlK%2FltuKO7HJ6zoOeCdIY2aCqSfvQPX9NHhfyaPDrqIWMJanIhCAngNwySHQJEXoU5IRhMCmHDSLqDzBaxzaeLOjvUenGjAQsoXbavEFwH3DxfAKiGxHBeXRnpEtdSB2ruC8YGT2W8hgzxnjn4UN2mEwQ%3D%3D');
-                "
-              ></div>
+
             </div>
           </div>
         </div>
@@ -70,7 +64,7 @@ export default {
     background-position: center, center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 320px;
+    height: 300px;
   }
   .section-bkg {
     background-position: top;

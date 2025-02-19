@@ -3,7 +3,7 @@
     <div class="container">
       <!-- 左側：Logo + 網站名稱 -->
       <RouterLink class="navbar-brand d-flex align-items-center" to="/">
-        <img src="/src/assets/Logo.png" alt="Logo" class="logo me-2" />
+        <img src="/Logo.png" alt="Logo" class="logo me-2" />
         <span class="fw-bold text-dark">Toy Haven</span>
       </RouterLink>
 
@@ -71,8 +71,8 @@ export default {
 
 <style scoped>
 .logo {
-  width: 40px;
-  height: 40px;
+  max-width: 80px; /* 最大寬度 */
+  height: 40px; /* 自動調整高度 */
 }
 
 .cart-badge {
