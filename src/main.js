@@ -14,6 +14,7 @@ import App from './App.vue'
 import router from './router'
 import { currency, date } from './methods/filters'
 import $httpMessageState from './methods/pushMessageState'
+import { createPinia } from 'pinia'
 
 const app = createApp(App)
 app.config.globalProperties.$filters = {
@@ -30,6 +31,9 @@ configure({
 // 設定預設語系
 setLocale('zh_TW')
 // 這函式的用途是整合 Ajax 的錯誤事件，統一整理發送給予 Toast 處理
+const pinia = createPinia()
+app.use(pinia)
+
 app.config.globalProperties.$httpMessageState = $httpMessageState
 app.use(VueAxios, axios)
 app.use(router)
