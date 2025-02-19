@@ -1,80 +1,10 @@
 <template>
     <section class="more-products pt-8">
-      <h2 class="fs-2 fw-bold text-primary text-center mb-6" style="font-family: var(--bs-NotoSerif-TC)">
-        更多香氛。
+      <h2 class="fs-2 fw-bold text-primary text-center mb-6 my-4 py-4" style="font-family: var(--bs-NotoSerif-TC)">
+        更多產品
       </h2>
       <!-- swiper -->
       <div class="bg-light py-4">
-          <SwiperSlide>
-            <RouterLink to="/product/-NaUfrmB_22pg-iMk29q">
-              <img
-                src="https://storage.googleapis.com/vue-course-api.appspot.com/peihanwang-hexschool/1690633769143.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=ejuKNHXdsLAbIKMvCP4nBukOQCAQT24uUfdkmrhCoWTPysqvfDgwbIAeQu8pzHbmVFVjo%2FBlukUV8MpVL5GwQJvIae4cPbtOvCR2C1YnF2igHjUiZv%2FblMvbjGYHsSBwdDugoNDq41jbXAtfD%2Fr7wKCPbC85EnG90050%2BbIjZ0MCpf3bw4%2BWbYme6ALqfHmWA5yr6jgaC55WiYhXRRpLXAcUEj7%2FxdWkS1BTniECwLm757CfyijBT9TaTfCEJiMc0%2FTPzDsFOTRDh4hDZkk790%2FSf7Srlw1lHaOnLt%2B5SinjNtK9xCrpKbCnLF6nz%2BuiT9lCxcuv3gRKImQdzXr4IA%3D%3D"
-                alt="放在木盤中的柚子香氛擴香 "
-              />
-              <div class="swiper-slide-mask"></div>
-              <p
-                class="swiper-slide-mask-btn position-absolute top-50 start-50 text-white border border-1 px-3 py-2 mb-0 translate-middle"
-              >
-                香氛擴香
-              </p>
-            </RouterLink></SwiperSlide
-          >
-          <SwiperSlide>
-            <RouterLink to="/product/-NaUfmD6hldVIBMNW303">
-              <img
-                src="https://storage.googleapis.com/vue-course-api.appspot.com/peihanwang-hexschool/1690633745811.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=GAADz5FaDFXMsKYX%2FFMOdLO6YKb%2Bf0OrLtFlyeNuuOPCwW5PpvN6OSZBGp6SiQNlalIvnZMpRuDe3lNDX%2Fy1nrsI4LHv%2BjuToFGAeYgb6v%2FbZQf4IjGfRSU39iFHNEdwIDZPtoOsYoRvfl%2B1oLMiBOd6Tk9BUfH0ewuYtpFkjj%2F0KTSvytaaQL6As0TF1cV9XAZgaL9xDNf29LMnLCYWuuCZvMdNaJ1RMrYoGD24wk63yXvztVDM6%2FKg6f8rbkuX9QMHMSJ%2BBlCbQdW26zM7gifn%2FxpvTbWPr4ADVhjp%2BTgxgw6yHVTzT8XTnTL0a4baPwKNTjnsEBMBoYRLU75emg%3D%3D"
-                alt="放在木盤子上面的白色香氛蠟燭"
-              />
-              <div class="swiper-slide-mask"></div>
-              <p
-                class="swiper-slide-mask-btn position-absolute top-50 start-50 text-white border border-1 px-3 py-2 mb-0 translate-middle"
-              >
-                香氛蠟燭
-              </p></RouterLink
-            ></SwiperSlide
-          >
-          <SwiperSlide>
-            <RouterLink to="/product/-NaUgD1YW3GgBdaJMpZ2">
-              <img
-                src="https://storage.googleapis.com/vue-course-api.appspot.com/peihanwang-hexschool/1690633823857.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=mvAQtg4LjGeJVV6QM5Mm8NDhdmcMbW%2F1PkBp%2F8XimzY%2FC%2FhoidyAObTlDyZArBpfN9mcRqpveZixW6SN%2FlD4VaiCHAyxbl52Zppn0U2G7WiuRvXvoI6J95iUkfId30%2FXO5C9eoeoNNDTUzFCzdAQCWJkIO4eRGtstE2gyOxDhr31SgpTEZJVCStALXp%2Bq%2F6%2FLHtWEpvNpweZAgm2jxT5A0E11ej4KPyRaTi6cJ%2F3KYP9RfNSCWHIurKvDGTb8P5AiJjNfhwNn6AN5LUcF4cN3rL8cxw9%2F2ZpgOpVW4O41AzM7ZCf15FRuprDVjAyspzAj2k7BvoCDP4rqFXcvFuxgg%3D%3D"
-                alt="放在木桌上的兩塊鳶尾花花香香氛沐浴皂"
-              />
-              <div class="swiper-slide-mask"></div>
-              <p
-                class="swiper-slide-mask-btn position-absolute top-50 start-50 text-white border border-1 px-3 py-2 mb-0 translate-middle"
-              >
-                花香香氛沐浴皂
-              </p></RouterLink
-            ></SwiperSlide
-          >
-          <SwiperSlide>
-            <RouterLink to="/product/-NaUd-NzuK3kTJRK_-wz">
-              <img
-                src="https://storage.googleapis.com/vue-course-api.appspot.com/peihanwang-hexschool/1690633203526.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=eW4jtER1hXR3%2F1wOv0XbYHC0zdtfoZ5wiMvgkIm7hxW%2BUVoiRCveYBgXAkE9vBSSqmcZmyta31z0Y4JxGIJx16q1gs1wrZKieBx8xJkhOJ3XUV%2Fd4KZppxWcR83bHtE9Pm8w1LbQFc0cEwVxowksh3tzPEDmFpRnUbiqwrapQKdEwQJJOIZ%2F0sIzVBkVHtwkF5OTty0SCJ61eC0mXeLY7uRaxwtOCVkDcrxQspGWr5BvBaojm4Eq95DuBEvC0CxNsvv4RX8Dr1g8MM%2BRXN%2F1JeVNpe%2F93B2GI2QK8pH00ZSRrHsVA8U0Rmozd6QCRlf%2BHCzRM7O6ZyH2AQUH%2FLM09w%3D%3D"
-                alt="放在木桌上白色花梨大豆蠟燭"
-              />
-              <div class="swiper-slide-mask"></div>
-              <p
-                class="swiper-slide-mask-btn position-absolute top-50 start-50 text-white border border-1 px-3 py-2 mb-0 translate-middle"
-              >
-                香氛大豆蠟燭
-              </p></RouterLink
-            ></SwiperSlide
-          >
-          <SwiperSlide>
-            <RouterLink to="/product/-NaUfgD8vUylevh0StTh">
-              <img
-                src="https://storage.googleapis.com/vue-course-api.appspot.com/peihanwang-hexschool/1690633728303.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=RWZ3hiUcR9Jx%2BeCgMKPz0tG%2B2pMQtFOdRE%2BKbscw8pyNWyDX7PcIDfjsl18srrAy%2Blhqj1FysKTBRr5l0jLXfBupKqAX7xJOyTUSeaIpDh09x389iK%2BkbYSa7PByPk6dFj%2FBoQFykwvmUU7%2Bt13msK6aKgWQdo4LUMMqS5AQybdOcSwa4Jfn2gYLGQauOu9cdKEv6E0SaCZjfSRatXUhOkfG283ahnCD93ODyzjhoyOOD08nHRIG3Eb1xDNJ%2F8Uh5lrxwI1LY6cVhXYT2OJdpG0QHvMl6iivmgu5vUpbjdj02iwMVxzIQcNMB5APonqwgThO83eSULnrZk52yS4mWw%3D%3D"
-                alt="放在綠色植物葉片上的淡香水"
-              />
-              <div class="swiper-slide-mask"></div>
-              <p
-                class="swiper-slide-mask-btn position-absolute top-50 start-50 text-white border border-1 px-3 py-2 mb-0 translate-middle"
-              >
-                香氛噴霧
-              </p></RouterLink
-            ></SwiperSlide
-          >
           <SwiperSlide>
             <RouterLink to="/product/-NaUd3lZGkS1IJDjaSCV">
               <img
@@ -155,7 +85,7 @@ export default {
   }
 
   .more-product-card-swiper {
-    height: 400px;
+    height: 200px;
   }
 
   .more-product-card-swiper .swiper-slide {

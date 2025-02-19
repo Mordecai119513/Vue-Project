@@ -5,7 +5,7 @@
       <div class="container ">
         <div data-aos="fade-up">
           <h2 class="fs-2 fw-bold text-primary text-center mb-6 my-4 py-4" style="font-family: var(--bs-NotoSerif-TC)">
-            關於Toy Haven。
+            關於Toy Haven
           </h2>
         </div>
         <div class="row flex-lg-row flex-column-reverse align-items-center gx-lg-8 gy-3">

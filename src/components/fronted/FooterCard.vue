@@ -27,13 +27,6 @@
                       target="_blank"
                     >
                       <span class="d-lg-block d-none">Toy Haven</span>
-                      <img
-                        src="/Logo.png"
-                        class="d-lg-none d-block img-fluid"
-                        alt="Logo"
-                        width="70"
-                        height="70"
-                      />
                     </a>
                   </li>
                   <li class="py-lg-25 py-0 ms-2 ms-lg-0">

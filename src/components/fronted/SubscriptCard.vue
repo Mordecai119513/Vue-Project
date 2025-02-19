@@ -1,30 +1,25 @@
 <template>
-    <section
-      class="subscript section-bkg"
-      style="
-        background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/peihanwang-hexschool/1682598842821.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=DU8b3nBYU2ER%2BdUWbghrVoA3KGX6KiJFzlKjmgNOTcZxCoxsv2AhJj7sZxIR%2BPIQLfiEq3cUrOIV9Sx0UA2NYMIPOxSla0gpXxR6MT8NRm5M4MazCYhnkplkioNt%2BSSMolimS8wk4SBicKJWyBaqRcrmKLe44PPP4QQQAFw3SLdkuBhOi%2BiKEKA4MnIEnzVxtpwY8bQfjQmCUKlLGS%2B2jhL%2FM2akcsWO0Z%2Bp9ebeA9VPplyNsoqu37H25KL%2FFT%2B9p%2F5jjoifcDzquWx7I6yqzINvnEQqu03UClrv9VHEImNlUPMc6y7%2FwP16d0tAyP6mqoDtMvsFdbPPaRGTeHF09g%3D%3D');
-      "
-    >
-      <div class="container text-primary">
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <VForm @submit="subscription" ref="subscriptionForm">
-              <label
-                class="form-label fs-3 fw-bold text-center text-md-start mb-55"
-                for="subscript"
-                style="font-family: var(--bs-NotoSerif-TC)"
-                >訂閱我們，獲取優惠與最新活動消息</label
-              >
-              <div class="input-group">
-                <button class="fs-6 btn btn-outline-primary px-5 py-2" type="submit" >訂閱</button>
-                <ErrorMessage class="invalid-feedback ms-1" name="email" />
-              </div>
-            </VForm>
-          </div>
+  <section class="subscript section-bkg">
+    <div class="container text-primary">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-6">
+          <VForm @submit="subscription" ref="subscriptionForm">
+            <label
+              class="form-label fs-3 fw-bold mb-4 d-block"
+              for="subscript"
+              style="font-family: var(--bs-NotoSerif-TC)"
+              >訂閱我們，獲取優惠與最新活動消息</label
+            >
+            <div class="d-flex justify-content-center">
+              <button class="fs-6 btn btn-outline-primary px-5 py-2" type="submit">訂閱</button>
+            </div>
+            <ErrorMessage class="invalid-feedback mt-2" name="email" />
+          </VForm>
         </div>
       </div>
-    </section>
-  </template>
+    </div>
+  </section>
+</template>
 
 <script>
 // sweetalert2
@@ -62,7 +57,7 @@ export default {
       Swal.fire({
         icon: 'success',
         title: '成功訂閱',
-        text: '獲得購物 8 折優惠代碼 fangsis888',
+        text: '獲得購物 8 折優惠代碼 ToyHaven01',
         confirmButtonText: '確定',
         confirmButtonColor: '#5D7067',
         customClass: {
