@@ -1,21 +1,37 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <NavBar></NavBar>
+  <BannerCard />
+  <AboutCard />
+  <PainPointsCard />
+  <HotSaleCard />
+  <!-- <MoreProductsCard /> -->
+  <SubscriptCard />
+  <FooterCard />
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import NavBar from '@/components/NavBar.vue'
+import BannerCard from '@/components/fronted/BannerCard.vue'
+import AboutCard from '@/components/fronted/AboutCard.vue'
+import PainPointsCard from '@/components/fronted/PainPointsCard.vue'
+import HotSaleCard from '@/components/fronted/HotSaleCard.vue'
+// import MoreProductsCard from '@/components/fronted/MoreProductsCard.vue'
+import SubscriptCard from '@/components/fronted/SubscriptCard.vue'
+import FooterCard from '@/components/fronted/FooterCard.vue'
 
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
+  data () {
+    return {}
   },
-  created () {
-    console.log(process.env.VUE_APP_API, process.env.VUE_APP_PATH)
+  components: {
+    NavBar,
+    BannerCard,
+    AboutCard,
+    PainPointsCard,
+    HotSaleCard,
+    // MoreProductsCard,
+    SubscriptCard,
+    FooterCard
   }
 }
 </script>

@@ -21,6 +21,16 @@ const routes = [
     component: () => import('../views/LoginPage.vue')
   },
   {
+    path: '/404NotFound',
+    name: '404',
+    component: () => import('../views/404NotFound.vue'),
+    meta: { title: 'ToyHaven | 找不到頁面' }
+  },
+  // {
+  //   path: '/:pathMatch(.*)',
+  //   redirect: '/404NotFound'
+  // },
+  {
     path: '/DashBoard',
     component: () => import('../views/DashBoard.vue'),
     children: [
@@ -49,6 +59,10 @@ const routes = [
       {
         path: 'product/:productId',
         component: () => import('../views/UserProduct.vue')
+      },
+      {
+        path: 'checkout/:orderId',
+        component: () => import('../views/UserCheckout.vue')
       }
     ]
   }

@@ -1,24 +1,60 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">作品</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <router-link to="/dashboard/products" class="nav-link">產品</router-link>
-          <router-link to="/dashboard/orders" class="nav-link">訂單</router-link>
-          <router-link to="/dashboard/coupons" class="nav-link">優惠券</router-link>
-          <a href="#" @click.prevent="logout" class="nav-link">登出</a>
-        </div>
-  </div>
-</div>
-</nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <!-- 左側：Logo + 網站名稱 -->
+      <RouterLink class="navbar-brand d-flex align-items-center" to="/">
+        <img src="/Logo.png" alt="Logo" class="logo me-2" />
+        <span class="fw-bold text-dark">Toy Haven</span>
+      </RouterLink>
+
+      <!-- 漢堡選單（小螢幕） -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- 中間：導航選單 -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <router-link to="/dashboard/products" class="nav-link">產品</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/dashboard/orders" class="nav-link">訂單</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/dashboard/coupons" class="nav-link">優惠券</router-link>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 右側：購物車 + 會員登入 -->
+      <div class="d-flex align-items-center">
+        <!-- 購物車按鈕 -->
+        <RouterLink class="nav-link position-relative text-dark me-3" to="/cart">
+          <i class="bi bi-cart fs-4"></i>
+          <span v-if="cartItemCount > 0" class="cart-badge">{{ cartItemCount }}</span>
+        </RouterLink>
+
+        <!-- 會員登入按鈕 -->
+        <RouterLink class="nav-link text-dark fs-4" to="/login">
+          <i class="bi bi-person-circle"></i>
+        </RouterLink>
+      </div>
+    </div>
+  </nav>
 </template>
 
 <script>
+import { useCartStore } from '@/stores/cartStore'
+import { storeToRefs } from 'pinia'
+
 export default {
+  setup () {
+    const cartStore = useCartStore()
+    const { cartItemCount } = storeToRefs(cartStore)
+
+    return { cartItemCount }
+  },
   methods: {
     logout () {
       const api = `${process.env.VUE_APP_API}logout`
@@ -32,3 +68,22 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.logo {
+  max-width: 80px; /* 最大寬度 */
+  height: 40px; /* 自動調整高度 */
+}
+
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 3px 6px;
+}
+</style>
