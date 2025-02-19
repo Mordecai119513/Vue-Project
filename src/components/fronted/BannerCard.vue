@@ -1,10 +1,26 @@
 <template>
-    <div class="container">
-      <div
-        class="banner-card z-index-2 bg-opacity-75 position-absolute bg-light p-4 pe-md-20 me-3 ms-1"
+  <div class="container">
+    <div
+      class="banner-card z-index-2 bg-opacity-75 position-absolute bg-light p-4 pe-md-20 me-3 ms-1"
+    >
+      <h1
+        class="text-primary text-center text-sm-start fs-4 fs-lg-2 fw-bold mb-4"
+        style="font-family: var(--bs-NotoSerif-TC)"
       >
-      </div>
+      嚴選創意與經典設計，<br />
+      打造最具收藏價值的玩具世界。
+      </h1>
+      <p
+        class="text-primary text-center text-sm-start fs-5 fs-lg-4 mb-7"
+        style="font-family: var(--bs-NotoSerif-TC)"
+      >
+      送給他，送給自己。
+      </p>
+      <RouterLink class="btn btn-outline-primary w-100 w-sm-35 py-2" to="/products"
+        >來去尋寶</RouterLink
+      >
     </div>
+  </div>
     <Swiper
       :modules="modules"
       class="banner-swiper swiper-no-swiping"
@@ -106,7 +122,12 @@ export default {
   object-fit: cover;
 }
 
-  .banner-card {
-    top: 45%;
-  }
+.banner-card {
+  top: 60%;
+  left: 20%;
+  transform: translateX(-50%);
+  max-width: 90%;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 10;
+}
   </style>
