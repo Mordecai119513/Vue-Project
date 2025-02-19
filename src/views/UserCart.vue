@@ -252,9 +252,23 @@ export default {
     createOrder () {
       const url = `${process.env.VUE_APP_API}api/${process.env.VUE_APP_PATH}/order`
       const order = this.form
+
       this.$http.post(url, { data: order })
         .then((res) => {
           console.log(res)
+
+          // 提取 API 返回的 orderId（請確認你的 API 回應結構）
+          const orderId = res.data.orderId
+
+          // 確保 orderId 存在，然後導航到結帳頁面
+          if (orderId) {
+            this.$router.push(`/user/checkout/${orderId}`)
+          } else {
+            console.error('Order ID not found in API response')
+          }
+        })
+        .catch((error) => {
+          console.error('Order submission failed:', error)
         })
     }
   },
