@@ -1,4 +1,5 @@
 <template>
+    <NavBar></NavBar>
     <div
       class="py-md-13 py-9 background-position-center background-size-corver"
       style="
@@ -47,6 +48,7 @@
 import ProductCategoryDesktop from '@/components/fronted/ProductCategoryDesktop.vue'
 import ProductCategoryMobile from '@/components/fronted/ProductCategoryMobile.vue'
 import ProductList from '@/components/fronted/ProductList.vue'
+import NavBar from '@/components/NavBar.vue'
 
 const VUE_APP_URL = process.env.VUE_APP_URL
 const VUE_APP_PATH = process.env.VUE_APP_PATH
@@ -64,7 +66,8 @@ export default {
   components: {
     ProductCategoryDesktop,
     ProductCategoryMobile,
-    ProductList
+    ProductList,
+    NavBar
   },
   methods: {
     getProducts (page = 1, category = '') {

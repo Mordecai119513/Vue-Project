@@ -21,6 +21,10 @@ const routes = [
     component: () => import('../views/fronted/LoginPage.vue')
   },
   {
+    path: '/fronted/ProductsView.vue',
+    component: () => import('../views/fronted/ProductsView.vue')
+  },
+  {
     path: '/404NotFound',
     name: '404',
     component: () => import('../views/fronted/404NotFound.vue'),
