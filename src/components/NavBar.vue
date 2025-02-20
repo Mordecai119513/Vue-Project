@@ -16,6 +16,12 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
+            <router-link to="/about" class="nav-link">關於ToyHaven</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/fronted/ProductsView.vue" class="nav-link">全部商品</router-link>
+          </li>
+          <li class="nav-item">
             <router-link to="/dashboard/products" class="nav-link">產品</router-link>
           </li>
           <li class="nav-item">

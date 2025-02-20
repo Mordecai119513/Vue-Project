@@ -129,5 +129,11 @@ export default {
   max-width: 90%;
   background: rgba(255, 255, 255, 0.2);
   z-index: 10;
+  @media (max-width: 768px) {
+    width: 80%;
+    padding: 1rem;
+    top: 50%;
+    left: 50%;
+  }
 }
   </style>
