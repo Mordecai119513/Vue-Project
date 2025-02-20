@@ -36,7 +36,7 @@
       <SwiperSlide
         ><img
           class="d-sm-block d-none"
-          src="/banner/173944158959.jpg"
+          src="https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740039248851.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=J8hE6jK867LESTdXXpr2FPBDicecst4H9myvG9QsgoOGo4btn0EK5knRMe0RzN2dZgVZbNcWXKJfKXwKSDQcwF%2F5FHo97%2Fp2NhnPLQmEKAaGjd5vfyTgoZDeUn0IK1bAzX44ug9d67KQCctBugxXiZFQs5ITHHEs8AqlwMJn41nONDM6Um1%2BUnWQMwpa%2F3ZhGig7VzbduOTXUQ11ruhy1AB3VO%2F65LK88IV2A85JFXohpR61Nj4pvvNwfhczxilghvbnwnF3GnCY%2BRMgCgy%2Fw5POm%2FtXLyXvwxCJawB0syz7yPNa2tBR7mwJUBq%2FY6x2ON893yX2eQR4%2Fqr1QLr7iQ%3D%3D"
           alt="怪獸超大全"
           style="background-color: var(--bs-primary)" />
 
