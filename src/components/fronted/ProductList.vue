@@ -2,20 +2,13 @@
     <div class="vl-parent" ref="loading-container">
       <!-- loading 效果元件 -->
       <ContainerLoading :isLoading="isLoading" :container="container" />
-      <div v-if="categoryProducts.length === 0">
-        <h2 class="fs-3 text-secondary text-center mt-10 mb-20">很抱歉! 找不到符合的商品</h2>
-      </div>
-      <div v-else class="row g-md-4 g-3">
-        <div v-for="product in categoryProducts" :key="product.id" class="col-lg-4 col-6">
+      <div v-if="localProducts.length === 0">
+  <h2 class="fs-3 text-secondary text-center mt-10 mb-20">很抱歉! 找不到符合的商品</h2>
+</div>
+<div v-else class="row g-md-4 g-3">
+  <div v-for="product in localProducts" :key="product.id" class="col-lg-4 col-6">
           <div class="card border-0 h-100 position-relative">
             <!-- 加入許願清單按鈕 -->
-            <a class="wishLists-btn fs-4 link-light" href="" @click.prevent="addWishList(product)">
-              <i
-                class="bi bi-heart-fill position-relative"
-                :class="{ 'heart-fill-active': wishListActive(product) }"
-              ></i
-              ><i class="bi bi-heart position-absolute"></i
-            ></a>
             <RouterLink class="product-link text-decoration-none" :to="`/product/${product.id}`">
               <div class="position-relative">
                 <!-- 判定並顯示是否為熱銷產品 -->
@@ -86,12 +79,45 @@ import PaginationComponent from '@/components/fronted/PaginationComponent.vue'
 export default {
   data () {
     return {
-      container: this.$refs.loadingContainer // ContainerLoading 渲染容器範圍
+      container: null, // 修正 this.$refs.loadingContainer 尚未初始化的問題
+      localProducts: [], // 新增本地變數存 API 產品數據
+      localPagination: {}, // 新增本地變數存分頁數據
+      localIsLoading: false // 新增本地變數控制 loading
     }
   },
   props: ['categoryProducts', 'categoryValue', 'getProducts', 'page', 'isLoading'],
   components: {
     PaginationComponent
+  },
+  mounted () {
+    console.log('📌 ProductList.vue 掛載，開始載入產品...')
+    this.loadProducts()
+  },
+  methods: {
+    loadProducts (page = 1, category = '') {
+      this.localIsLoading = true
+      const apiUrl = `${process.env.VUE_APP_API}v2/api/${process.env.VUE_APP_PATH}/products?page=${page}&category=${category}`
+      console.log('🔍 API 請求 URL:', apiUrl) // 確認 API URL 是否正確
+
+      this.$http.get(apiUrl)
+        .then((res) => {
+          console.log('📢 API 回應:', res.data) // 檢查 API 是否回傳資料
+
+          if (res.data.success) {
+            this.localProducts = res.data.products
+            this.localPagination = res.data.pagination
+            this.localIsLoading = false
+            this.$emit('update-products', this.localProducts, this.localPagination)
+          } else {
+            console.error('❌ API 回傳失敗:', res.data.message)
+            this.localIsLoading = false
+          }
+        })
+        .catch((err) => {
+          console.error('🚨 API 請求錯誤:', err)
+          this.localIsLoading = false
+        })
+    }
   }
 }
 </script>

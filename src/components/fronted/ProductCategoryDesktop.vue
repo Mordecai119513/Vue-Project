@@ -1,8 +1,8 @@
 <template>
-    <ul class="list-group">
+    <ul class="list-group my-4 py-4">
       <button
         type="button"
-        class="list-group-item list-group-item-action"
+        class="list-group-item list-group-item-action "
         :class="{ active: categoryValue === '' }"
         @click="getProducts(1)"
       >
@@ -14,7 +14,7 @@
         :class="{ active: categoryValue === 'giftBox' }"
         @click="getProducts(1, 'giftBox')"
       >
-        <li class="list-unstyled">禮盒系列</li>
+        <li class="list-unstyled">扭蛋系列</li>
       </button>
       <button
         type="button"
@@ -22,7 +22,7 @@
         :class="{ active: categoryValue === 'bathAndBodyProducts' }"
         @click="getProducts(1, 'bathAndBodyProducts')"
       >
-        <li class="list-unstyled">沐浴用品</li>
+        <li class="list-unstyled">公仔收藏</li>
       </button>
       <button
         type="button"
@@ -30,7 +30,7 @@
         :class="{ active: categoryValue === 'fragrance' }"
         @click="getProducts(1, 'fragrance')"
       >
-        <li class="list-unstyled">室內香氛</li>
+        <li class="list-unstyled">其他好物</li>
       </button>
     </ul>
   </template>

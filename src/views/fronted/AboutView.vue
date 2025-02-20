@@ -64,26 +64,26 @@ Toy Haven 讓快樂與創意無限延續。」
 
 <style lang="scss" scoped>
 .bkg-banai-secondary {
-  background-image: url('');
+  background-image: url('https://images.unsplash.com/photo-1516550135131-fe3dcb0bedc7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=621e8231a4e714c2e85f5acbbcc6a730&auto=format&fit=crop&w=1352&q=80');
   background-size: auto;
   background-position: center center;
   background-repeat: no-repeat;
   max-width: 100%;
-  width: 170px;
-  height: 170px;
+  width: 300px;
+  height: 300px;
   position: absolute;
   bottom: 0;
   right: 0;
   opacity: 15%;
 }
 .bkg-smallstepsgreen-secondary {
-  background-image: url('');
+  background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740042340813.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=gbGgLhrGD%2B6m6kBMLkTMJ9yqMmhNcBJyys5HE2xDLl0DFsI6hHQmuOkDVbob7BqlfHy8RVmvW2lGdjYOeHTEtICYw1c08MeYuMuoVzQJpVIQDQcPvFK4rT6JuK3uv9oORLqBXOAvzrpafHR9KRYH8KlOefsU67a7ZKfDj1SaWTEgSqtJOY8bCirJTDaDERKsKIWnD9eYkzdrIhtdqgOVynLzf4EmR5PQMM%2BDNSYDyzLJq5mq4ieubXYb8OnoC3otJ0A7aWHEu%2BVPEQDwsIUZjsEClgyhmC%2FfMG6x479Vl7HRkqL3zsr%2B6wDk9ZP4fuflQvQ%2B%2BzUe6J86UEkGuUgQGw%3D%3D');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   max-width: 100%;
-  width: 300px;
-  height: 300px;
+  width: 170px;
+  height: 200px;
   position: absolute;
   top: -50px;
   left: 0;
