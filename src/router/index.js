@@ -21,7 +21,7 @@ const routes = [
     component: () => import('../views/fronted/LoginPage.vue')
   },
   {
-    path: '/fronted/ProductsView.vue',
+    path: '/fronted/ProductsView',
     component: () => import('../views/fronted/ProductsView.vue')
   },
   {

@@ -85,7 +85,7 @@ export default {
       localIsLoading: false // 新增本地變數控制 loading
     }
   },
-  props: ['categoryProducts', 'categoryValue', 'getProducts', 'page', 'isLoading'],
+  props: ['categoryProducts', 'categoryValue', 'getProducts', 'page', 'isLoading', 'spinnerLoading'],
   components: {
     PaginationComponent
   },
@@ -142,7 +142,12 @@ export default {
 
   // 產品圖片 hover zoom in / out
   .img-hidden {
-    overflow: hidden;
+    width: 100%; /* 確保外框寬度與容器一致 */
+  height: 250px; /* 統一圖片高度 */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   }
   .img-hidden img {
     transition: 0.5s;

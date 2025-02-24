@@ -11,24 +11,24 @@
       <button
         type="button"
         class="list-group-item list-group-item-action"
-        :class="{ active: categoryValue === 'giftBox' }"
-        @click="getProducts(1, 'giftBox')"
+        :class="{ active: categoryValue === 'gacha' }"
+        @click="getProducts(1, 'gacha')"
       >
         <li class="list-unstyled">扭蛋系列</li>
       </button>
       <button
         type="button"
         class="list-group-item list-group-item-action"
-        :class="{ active: categoryValue === 'bathAndBodyProducts' }"
-        @click="getProducts(1, 'bathAndBodyProducts')"
+        :class="{ active: categoryValue === 'doll' }"
+        @click="getProducts(1, 'doll')"
       >
         <li class="list-unstyled">公仔收藏</li>
       </button>
       <button
         type="button"
         class="list-group-item list-group-item-action"
-        :class="{ active: categoryValue === 'fragrance' }"
-        @click="getProducts(1, 'fragrance')"
+        :class="{ active: categoryValue === 'other' }"
+        @click="getProducts(1, 'other')"
       >
         <li class="list-unstyled">其他好物</li>
       </button>

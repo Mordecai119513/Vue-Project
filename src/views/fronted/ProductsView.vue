@@ -17,13 +17,14 @@
         <div class="d-block d-lg-none">
           <ProductCategoryMobile :getProducts="getProducts" :categoryValue="categoryValue" />
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-9 my-4 py-4">
           <ProductList
             :categoryProducts="categoryProducts"
             :categoryValue="categoryValue"
             :getProducts="getProducts"
             :page="page"
             :isLoading="isLoading"
+            :spinnerLoading="spinnerLoading"
           />
         </div>
       </div>
@@ -45,7 +46,8 @@ export default {
       categoryProducts: [], // 分類後的產品列表
       categoryValue: '', // 用於 pagination 換頁時將類別類型加入至 getProducts
       page: {},
-      isLoading: false // 控制 loading 狀態
+      isLoading: false, // 控制 loading 狀態
+      spinnerLoading: null
     }
   },
   components: {
@@ -73,6 +75,25 @@ export default {
     },
     scrollToTop () {
       window.scrollTo(0, 0)
+    },
+    addToCart (productId) {
+      this.spinnerLoading = productId // 🔹 設定 spinnerLoading，顯示 loading 效果
+      const apiUrl = `${process.env.VUE_APP_API}v2/api/${process.env.VUE_APP_PATH}/cart`
+
+      this.$http.post(apiUrl, { data: { product_id: productId, qty: 1 } })
+        .then((res) => {
+          if (res.data.success) {
+            this.$emit('update-cart') // 🔹 觸發事件讓父組件更新購物車
+          } else {
+            console.error('❌ 加入購物車失敗:', res.data.message)
+          }
+        })
+        .catch((err) => {
+          console.error('🚨 API 請求錯誤:', err)
+        })
+        .finally(() => {
+          this.spinnerLoading = null // 🔹 請求完成後，重置 loading 狀態
+        })
     }
   },
   mounted () {

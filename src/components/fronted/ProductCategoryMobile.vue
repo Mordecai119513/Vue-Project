@@ -5,9 +5,9 @@
       @change="classifyProductsMobile($event)"
     >
       <option value="" selected>全部商品</option>
-      <option value="giftBox">禮盒系列</option>
-      <option value="bathAndBodyProducts">沐浴用品</option>
-      <option value="fragrance">室內香氛</option>
+      <option value="giftBox">扭蛋系列</option>
+      <option value="bathAndBodyProducts">公仔收藏</option>
+      <option value="fragrance">其他好物</option>
     </select>
   </template>
 

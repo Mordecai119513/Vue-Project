@@ -9,7 +9,7 @@
                 <div
                   class="card-body position-relative point-bkg"
                   style="
-                  background-image: url('/Products/173901405494.jpg');
+                  background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740385122319.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=PMydG2o%2F%2FwnXat9IUgvkaydlF5tzpPhaGsjBiK%2FnPgaPNTPKr7ojabS5%2Frzn5v0z41GIxoHMJJpF94c8g6Cu5Q8dR2QmwcmnnqTizr%2F4NK%2FIi844MBOomtPjQl57aqkMPAN4PjOwkK8SLGd2B7jNawFyFYw7UuMJHnwmGOVZUsLvnjKmKENPQXljuqM6BPm3UIuzGu324UpNdfWpATt26TtU6RB10TKVIvQVEzmQhr62QrdmaYQf5nZh2YzXedb3cBVoVJRwcine5JPsnO6KpOZrGM9TOO37rwzYHVmAXJRYSG4xim0M2Qmza6xlTc8fquf6cT21aRc%2FZpItEqSztw%3D%3D');
                   background-color: var(--bs-secondary);
                   "
                 >
@@ -28,7 +28,7 @@
                       <div class="link-border border border-1 py-2">
                         <RouterLink
                           class="link-light text-decoration-none fs-6 px-6 stretched-link"
-                          to="/products"
+                          to="/fronted/ProductsView"
                           >查看更多</RouterLink
                         >
                       </div>
@@ -42,7 +42,7 @@
                 <div
                   class="card-body position-relative point-bkg"
                   style="
-                  background-image: url('/Products/173938710363.jpg');
+                  background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740385151204.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=MWlxVVGtxYoSSa14BBIHDnyyLQQ7XRH1UwqeJ%2FKRHQaySnhcvR0trePGHZPP%2B8m0hp10blPlfjDk4IOaeGu353mRzS4dUi4ygaX%2FPtF3h90FA8tTcqTtNYle5lBpf6ZzptPAio98rF2dPPUC2p0%2FJC%2FYTW1mHoWMx8g4e626BA2Fk7kA4SgRHgyT8EqA0qbyjpvvVQVEkhNWyWEQW8VMZ9rl61vgxOaJlgKuppmSZPtB8lOR%2BWNDRtwPtsgt9qwE2JYtQ3BUrA7FNNYlVH2qbf%2BJBnisYRkZG7Vnl7Q4g1TjA3Yr2soTJXHvDdg8GuBxBzetC%2F%2BTb9IiIGewAVBgAQ%3D%3D');
                   background-color: var(--bs-secondary);
                   "
                 >
@@ -61,7 +61,7 @@
                       <div class="link-border border border-1 py-2">
                         <RouterLink
                           class="link-light text-decoration-none fs-6 px-6 stretched-link"
-                          to="/products"
+                          to="/fronted/ProductsView"
                           >查看更多</RouterLink
                         >
                       </div>
@@ -75,7 +75,7 @@
                 <div
                   class="card-body position-relative point-bkg"
                   style="
-                  background-image: url('/Products/173876676758.jpg');
+                  background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740385082326.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AdzZyMGpvWAHarbQUm%2FmU9iTjPoO1Zuq9C40SG6d1DvnUTLsSPXT0LzTs96Q01oW7mY%2BjErkGxvSGCgTPf4re5hTopWLFx2ur8scYG9BlEyiUmT0OpbWlsWXtlznTMbB5IhIl1hQjAo6cVfVNGR3FQQ1GQbrdOrIytpxYs9YWwtp4AuUCCUdjnCCTN4b3XLD%2BcAmSLL72Kz%2BTz0UXAf4j%2BW8ssoHU5j3M9sdDO3zdis2Q9gW6uS9Lj7d3MaXAWHgPS%2BOz4gQfxsE20xLLifyaDSOPOGiiepTXxv82SWsQ1xa2ZT7oDIDa4fq606PrmrWNLZWWrxXIOp5IuChIBsMwQ%3D%3D');
                   background-color: var(--bs-secondary);
                   "
                 >
@@ -94,7 +94,7 @@
                       <div class="link-border border border-1 py-2">
                         <RouterLink
                           class="link-light text-decoration-none fs-6 px-6 stretched-link"
-                          to="/products"
+                          to="/fronted/ProductsView"
                           >查看更多</RouterLink
                         >
                       </div>
@@ -115,7 +115,7 @@
                 <div
                   class="card-body position-relative point-bkg"
                   style="
-                  background-image: url('/Products/173901405494.jpg');
+                  background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740385122319.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=PMydG2o%2F%2FwnXat9IUgvkaydlF5tzpPhaGsjBiK%2FnPgaPNTPKr7ojabS5%2Frzn5v0z41GIxoHMJJpF94c8g6Cu5Q8dR2QmwcmnnqTizr%2F4NK%2FIi844MBOomtPjQl57aqkMPAN4PjOwkK8SLGd2B7jNawFyFYw7UuMJHnwmGOVZUsLvnjKmKENPQXljuqM6BPm3UIuzGu324UpNdfWpATt26TtU6RB10TKVIvQVEzmQhr62QrdmaYQf5nZh2YzXedb3cBVoVJRwcine5JPsnO6KpOZrGM9TOO37rwzYHVmAXJRYSG4xim0M2Qmza6xlTc8fquf6cT21aRc%2FZpItEqSztw%3D%3D');
                   background-color: var(--bs-secondary);
                   "
                 >
@@ -134,7 +134,7 @@
                       <div class="link-border border border-1 py-2">
                         <RouterLink
                           class="link-light text-decoration-none fs-6 px-6 stretched-link"
-                          to="/products"
+                          to="/fronted/ProductsView"
                           >查看更多</RouterLink
                         >
                       </div>
@@ -150,7 +150,7 @@
                 <div
                   class="card-body position-relative point-bkg"
                   style="
-                  background-image: url('/Products/173938710363.jpg');
+                  background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740385151204.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=MWlxVVGtxYoSSa14BBIHDnyyLQQ7XRH1UwqeJ%2FKRHQaySnhcvR0trePGHZPP%2B8m0hp10blPlfjDk4IOaeGu353mRzS4dUi4ygaX%2FPtF3h90FA8tTcqTtNYle5lBpf6ZzptPAio98rF2dPPUC2p0%2FJC%2FYTW1mHoWMx8g4e626BA2Fk7kA4SgRHgyT8EqA0qbyjpvvVQVEkhNWyWEQW8VMZ9rl61vgxOaJlgKuppmSZPtB8lOR%2BWNDRtwPtsgt9qwE2JYtQ3BUrA7FNNYlVH2qbf%2BJBnisYRkZG7Vnl7Q4g1TjA3Yr2soTJXHvDdg8GuBxBzetC%2F%2BTb9IiIGewAVBgAQ%3D%3D');
                   background-color: var(--bs-secondary);
                   "
                 >
@@ -169,7 +169,7 @@
                       <div class="link-border border border-1 py-2">
                         <RouterLink
                           class="link-light text-decoration-none fs-6 px-6 stretched-link"
-                          to="/products"
+                          to="/fronted/ProductsView"
                           >查看更多</RouterLink
                         >
                       </div>
@@ -185,7 +185,7 @@
                 <div
                   class="card-body position-relative point-bkg"
                   style="
-                  background-image: url('/Products/173876676758.jpg');
+                  background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740385082326.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AdzZyMGpvWAHarbQUm%2FmU9iTjPoO1Zuq9C40SG6d1DvnUTLsSPXT0LzTs96Q01oW7mY%2BjErkGxvSGCgTPf4re5hTopWLFx2ur8scYG9BlEyiUmT0OpbWlsWXtlznTMbB5IhIl1hQjAo6cVfVNGR3FQQ1GQbrdOrIytpxYs9YWwtp4AuUCCUdjnCCTN4b3XLD%2BcAmSLL72Kz%2BTz0UXAf4j%2BW8ssoHU5j3M9sdDO3zdis2Q9gW6uS9Lj7d3MaXAWHgPS%2BOz4gQfxsE20xLLifyaDSOPOGiiepTXxv82SWsQ1xa2ZT7oDIDa4fq606PrmrWNLZWWrxXIOp5IuChIBsMwQ%3D%3D');
                   background-color: var(--bs-secondary);
                   "
                 >
@@ -204,7 +204,7 @@
                       <div class="link-border border border-1 py-2">
                         <RouterLink
                           class="link-light text-decoration-none fs-6 px-6 stretched-link"
-                          to="/products"
+                          to="/fronted/ProductsView"
                           >查看更多</RouterLink
                         >
                       </div>
