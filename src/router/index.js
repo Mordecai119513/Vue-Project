@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../views/fronted/HomeView.vue'
 
 const routes = [
   {
@@ -14,16 +14,20 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+      import(/* webpackChunkName: "about" */ '../views/fronted/AboutView.vue')
   },
   {
     path: '/Login',
-    component: () => import('../views/LoginPage.vue')
+    component: () => import('../views/fronted/LoginPage.vue')
+  },
+  {
+    path: '/fronted/ProductsView',
+    component: () => import('../views/fronted/ProductsView.vue')
   },
   {
     path: '/404NotFound',
     name: '404',
-    component: () => import('../views/404NotFound.vue'),
+    component: () => import('../views/fronted/404NotFound.vue'),
     meta: { title: 'ToyHaven | 找不到頁面' }
   },
   // {
@@ -50,19 +54,19 @@ const routes = [
   },
   {
     path: '/user',
-    component: () => import('../views/UserBoard.vue'),
+    component: () => import('../views/fronted/UserBoard.vue'),
     children: [
       {
         path: 'cart',
-        component: () => import('../views/UserCart.vue')
+        component: () => import('../views/fronted/UserCart.vue')
       },
       {
         path: 'product/:productId',
-        component: () => import('../views/UserProduct.vue')
+        component: () => import('../views/fronted/UserProduct.vue')
       },
       {
         path: 'checkout/:orderId',
-        component: () => import('../views/UserCheckout.vue')
+        component: () => import('../views/fronted/UserCheckout.vue')
       }
     ]
   }

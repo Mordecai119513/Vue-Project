@@ -8,14 +8,14 @@
         <!-- 網頁版 hot-sale -->
         <div class="hot-sale-desktop d-none d-md-block">
           <div data-aos="fade-up">
-            <RouterLink class="hot-sale-link text-decoration-none" to="/product/-NbqyfLN2KMNTi0BDw2a">
+            <RouterLink class="hot-sale-link text-decoration-none" to="/fronted/ProductsView">
               <div class="card border-0 position-relative">
                 <div class="row g-0">
                   <div class="col-6">
                     <div
                       class="position-relative h-100 hot-sale-bkg-img"
                       style="
-                  background-image: url('/Products/173875956574.jpg');
+                  background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740385020863.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=klijXLyCKlYYZ3mf%2Fyy%2ByPO3Obuwwu%2FnYdxDJjAfgYzU%2Bl9Drf45TIHyiHctZzIMea%2BjTQryWWYVGTkPGODg5EsxYDGHjU6gHUauGClvqv6sVHWb2mCv9WbrkJaMkSanP7QErPqJH8BR8qz2VRcxls3nkrIYh7hOs9jzOOVWD6gGSAid9WZZA1w2PCCIHw5Tm%2FWdRt3ZB50hOTKY6jIOq8qshpEXufqcaWFPTdc%2FMawR54aFW4QBmRXF5H5lz0NZaCXrQAU%2BpmKJYL2loWUCIqOQDTycTMwJhCCS2p4pOMk6RKjRzLpn%2FKMvEvOtepGvIhJix0mdLoE6Nb16ZO1m3g%3D%3D');
                   background-color: var(--bs-secondary);
                   "
                     >
@@ -45,7 +45,7 @@
                 </div>
               </div>
             </RouterLink>
-            <RouterLink class="hot-sale-link text-decoration-none" to="/product/-NbqyIBPAuloX43ptLPf">
+            <RouterLink class="hot-sale-link text-decoration-none" to="/fronted/ProductsView">
               <div class="card border-0 position-relative">
                 <div class="row g-0">
                   <div class="col-6 hot-sale-hover-style">
@@ -67,7 +67,7 @@
                     <div
                       class="position-relative h-100 hot-sale-bkg-img"
                       style="
-                  background-image: url('/Products/17387396039.jpg');
+                  background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740384927491.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=lnnG5T%2Fw8BcgMT3NznrvzqqoOc8FegZrhzj74Nbcrz0ma4StovE7QC9pvY7EOaswQkwTeuX0TdC2OwGS%2FxCIcFpowVDTgfYKXFcugD4lDIVh4erLZwWEheB3YuWs4miTBdYVbSj2tpIzYBvLQTErl7LYZumdakcaYwdU44FsmrJQGuqOvov7qol87DeiUcx%2BFbAiJyi%2B61rww2Lg1qkKvMMaU5P5aZgLjh52tfikR7ShPuIuBtDQ7Stf%2FPG7cw%2BmEtuM74FgztzXNq4%2BVAIImvgbdb%2FxqD%2FVc6QUZUAJKmndqY65YysXw5IrNM9KZ9HgV%2B3C7i87lGunb2b8ggXW0A%3D%3D');
                   background-color: var(--bs-secondary);
                   "
                     >
@@ -82,14 +82,14 @@
                 </div>
               </div>
             </RouterLink>
-            <RouterLink class="hot-sale-link text-decoration-none" to="/product/-NbqyVvyXTcrspg7NMK9">
+            <RouterLink class="hot-sale-link text-decoration-none" to="/fronted/ProductsView">
               <div class="card border-0 position-relative">
                 <div class="row g-0">
                   <div class="col-6">
                     <div
                       class="position-relative h-100 hot-sale-bkg-img"
                       style="
-                  background-image: url('/Products/173865956854.jpg');
+                  background-image: url('https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740385057577.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=fe3uEkpbCdUB5bpiFRg89xywAoBX3F2vRXs7CArn5G%2FA1EHWVKyts8ZIrDXMKOlhkox%2BWSt2aP%2B7DoSPEWHAiYOrMYvEzr6%2Fze6KBU2hjDETb7epp8K0DCPS8N7ogdZ%2F832WYEqff9FtuX57zX2LLd0s6u4rDbosUi%2FYCqKZxyttAYTeM9p5WiAyIDlFqjwCKwiTi6mKGYjBvgp0nGlPQQdYk86o8D8Y25KSqRLEnHhpXSfh7NPkApf53nhgXCrzDA2V4tyq9CvJ6tpQeUFGpzkJGQ4WIOHcNj65OkEL1hjyCBQS00IfN0F6AfxGRjAhOFFoW821vS2SkMY7ggkwDg%3D%3D');
                   background-color: var(--bs-secondary);
                   "
                     >
@@ -126,7 +126,7 @@
           <div data-aos="fade-up">
             <div class="card mb-3 border-0 rounded-0">
               <img
-                src="Products/173875956574.jpg"
+                src="https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740385020863.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=klijXLyCKlYYZ3mf%2Fyy%2ByPO3Obuwwu%2FnYdxDJjAfgYzU%2Bl9Drf45TIHyiHctZzIMea%2BjTQryWWYVGTkPGODg5EsxYDGHjU6gHUauGClvqv6sVHWb2mCv9WbrkJaMkSanP7QErPqJH8BR8qz2VRcxls3nkrIYh7hOs9jzOOVWD6gGSAid9WZZA1w2PCCIHw5Tm%2FWdRt3ZB50hOTKY6jIOq8qshpEXufqcaWFPTdc%2FMawR54aFW4QBmRXF5H5lz0NZaCXrQAU%2BpmKJYL2loWUCIqOQDTycTMwJhCCS2p4pOMk6RKjRzLpn%2FKMvEvOtepGvIhJix0mdLoE6Nb16ZO1m3g%3D%3D"
                 class="card-img-top img-fluid rounded-0"
                 alt=""
                 width="351"
@@ -141,7 +141,7 @@
                   日本萬代公司轉蛋玩具品牌 GASHAPON 與樂器大廠 Fender 攜手，推出了最新商品：「Fender Miniature Collection」微縮轉蛋！參考售價為一轉 500 日圓，共有 5 種款式，預計於 2025 年 02 月下旬開轉～
                 </p>
                 <RouterLink
-                  to="/product/-NbqyfLN2KMNTi0BDw2a"
+                  to="/fronted/ProductsView"
                   class="btn btn-outline-secondary w-100 fs-6"
                   >查看更多</RouterLink
                 >
@@ -151,7 +151,7 @@
           <div data-aos="fade-up">
             <div class="card mb-3 border-0 rounded-0">
               <img
-                src="/Products/17387396039.jpg"
+                src="https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740384927491.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=lnnG5T%2Fw8BcgMT3NznrvzqqoOc8FegZrhzj74Nbcrz0ma4StovE7QC9pvY7EOaswQkwTeuX0TdC2OwGS%2FxCIcFpowVDTgfYKXFcugD4lDIVh4erLZwWEheB3YuWs4miTBdYVbSj2tpIzYBvLQTErl7LYZumdakcaYwdU44FsmrJQGuqOvov7qol87DeiUcx%2BFbAiJyi%2B61rww2Lg1qkKvMMaU5P5aZgLjh52tfikR7ShPuIuBtDQ7Stf%2FPG7cw%2BmEtuM74FgztzXNq4%2BVAIImvgbdb%2FxqD%2FVc6QUZUAJKmndqY65YysXw5IrNM9KZ9HgV%2B3C7i87lGunb2b8ggXW0A%3D%3D"
                 class="card-img-top img-fluid rounded-0"
                 alt=""
                 width="351"
@@ -166,7 +166,7 @@
                   美系玩具廠牌 SUPER7 與東寶（Toho）攜手，推出可愛又復古的「Toho FUN! FUN!」新系列收藏，首波將推出《哥吉拉vs碧奧蘭蒂》主題的：「哥吉拉'89」與《哥吉拉 vs機械哥吉拉》的「機械哥吉拉 '90」兩款最新商品，參考售價為 25 美元，預計於 2025 年 03 月發貨。
                 </p>
                 <RouterLink
-                  to="/product/-NbqyIBPAuloX43ptLPf"
+                  to="/fronted/ProductsView"
                   class="btn btn-outline-secondary w-100 fs-6"
                   >查看更多</RouterLink
                 >
@@ -177,7 +177,7 @@
           <div data-aos="fade-up">
             <div class="card mb-3 border-0 rounded-0">
               <img
-                src="/Products/173865956854.jpg"
+                src="https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740385057577.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=fe3uEkpbCdUB5bpiFRg89xywAoBX3F2vRXs7CArn5G%2FA1EHWVKyts8ZIrDXMKOlhkox%2BWSt2aP%2B7DoSPEWHAiYOrMYvEzr6%2Fze6KBU2hjDETb7epp8K0DCPS8N7ogdZ%2F832WYEqff9FtuX57zX2LLd0s6u4rDbosUi%2FYCqKZxyttAYTeM9p5WiAyIDlFqjwCKwiTi6mKGYjBvgp0nGlPQQdYk86o8D8Y25KSqRLEnHhpXSfh7NPkApf53nhgXCrzDA2V4tyq9CvJ6tpQeUFGpzkJGQ4WIOHcNj65OkEL1hjyCBQS00IfN0F6AfxGRjAhOFFoW821vS2SkMY7ggkwDg%3D%3D"
                 class="card-img-top img-fluid rounded-0"
                 alt=""
                 width="351"
@@ -192,7 +192,7 @@
                   擅長打造精緻配件與迷你模型的日本 RE-MENT 玩具公司今（4）日發表了多款新作，本篇將帶來一直以來都擁有滿滿大人氣的史努比主題新作「史努比的愜意假日房間」（SNOOPY‘s COZY WEEKEND ROOM）盒玩！預計在 2025 年 5 月 26 日開始發售，建議售價為每款 900 日幣，一共有 8 種款式可以收集。
                 </p>
                 <RouterLink
-                  to="/product/-NbqyVvyXTcrspg7NMK9"
+                  to="/fronted/ProductsView"
                   class="btn btn-outline-secondary w-100 fs-6"
                   >查看更多</RouterLink
                 >

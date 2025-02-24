@@ -4,9 +4,11 @@
       <form class="col-md-6" @submit.prevent="payOrder">
         <table class="table align-middle">
           <thead>
+          <tr>
           <th>品名</th>
           <th>數量</th>
           <th>單價</th>
+          </tr>
           </thead>
           <tbody>
           <tr v-for="item in order.products" :key="item.id">
