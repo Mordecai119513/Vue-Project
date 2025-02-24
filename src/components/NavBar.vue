@@ -6,7 +6,6 @@
         <img src="https://storage.googleapis.com/vue-course-api.appspot.com/mordecai-api/1740385752043.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=lM4y8aT%2FRnZWwMptibiVRhNtw1%2BlYPQtzoJFXpw3uyNToVAh9jJ2trrDuF0ThYrEw8FoVaHKS5hiOlT7A7AK3%2BBT6zDbS6G4f0VyVonimPDhVcVYafOvw7MsVdt4N7mHqv%2BFBgb90sPCa4Gep5Gw9UD3%2FeP3KljNy6ULLUQpp5YcOU80Y4Jc41naOs6ld0OjS2BX4Cku1inR7oiTfp7Bz5lBxRRLLskU6HtI8YB3t%2BV%2BABy%2BTV%2BecrORQ%2FaAmxmmeKOB0xM2g%2FxLAQ9AjFPz8ROKiLbjnU%2Bkfjp4UyieGSkLrDWmXb96QXfUbHv5JMGFJRLstD53Ck3%2BBZkH3kAQCA%3D%3D" alt="Logo" class="logo me-2" />
         <span class="fw-bold text-dark">Toy Haven</span>
       </RouterLink>
-
       <!-- 漢堡選單（小螢幕） -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
